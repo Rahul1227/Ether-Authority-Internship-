@@ -1,0 +1,10 @@
+await ctrl.giveReward("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", 10, 1)
+await ctrl.giveBadge("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", "ipfs://badge_metadata_here")
+// mint badge NFT
+await ctrl.issueCertificate("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", "ipfs://your_cid_here")
+// mint certificate NFT
+await ctrl.giveTaskReward("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", 5, 99)
+// mint task tokens
+await ctrl.giveRewar
+// mint reward tokens
+const ctrl = await ethers.getContractAt("MintingController", "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9")

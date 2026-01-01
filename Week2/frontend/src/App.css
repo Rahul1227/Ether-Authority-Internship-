@@ -1,0 +1,18 @@
+/* shrink certificate image for a cleaner UI */
+.nft-img {
+  width: 160px;       /* was huge, now reduced */
+  height: 160px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* optional: make cards closer vertically */
+.nft-card {
+  padding: 10px;
+}
+
+/* optional: reduce spacing between certificate cards */
+.nft-grid {
+  gap: 20px;
+}

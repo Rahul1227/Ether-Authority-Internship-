@@ -1,0 +1,120 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #161622;
+  padding: 15px 25px;
+  color: white;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: #a9a9ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.connect-box {
+  margin: 20px 0;
+}
+
+.wallet-tag {
+  background: #232335;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.card {
+  background: #1b1b29;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 12px 0;
+}
+
+.tx {
+  margin-top: 15px;
+  color: #46f289;
+}
+
+.form-box input {
+  display: block;
+  background: #11111a;
+  border: 1px solid #343446;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  color: white;
+}
+
+.btn-group button {
+  margin-right: 10px;
+}
+.card {
+  background: #151822;
+  border: 1px solid #2b2f3a;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 25px;
+  width: 400px;
+  color: #ddd;
+}
+
+.address {
+  color: #6f9bff;
+  font-weight: bold;
+}
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 12px;
+}
+
+.nft-card {
+  background: #151b28;
+  border: 1px solid #2f3440;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.nft-img {
+  width: 90%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.nft-id {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.nft-cid {
+  font-size: 12px;
+  color: #9ea7be;
+  word-break: break-all;
+  margin-bottom: 10px;
+}
+
+.nft-btn {
+  display: block;
+  background: #5f6bfa;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.nft-btn:hover {
+  background: #4652d9;
+}
+
+.empty {
+  opacity: 0.6;
+  font-style: italic;
+}
